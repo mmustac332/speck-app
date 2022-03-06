@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Mukta:wght@300&family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Mukta:wght@300&family=Mulish:wght@200&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Mulish", sans-serif;
+}
+
+#pocetniSadrzaj{
+    background-color: #B2BEB5;
+    top: 0;
+    left: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#pocNaslov{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.naslov{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.mojaSlika img{
+    width: 30%;
+    border-radius: 10px;
+    border: #B2BEB5;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+.mojaSlika h1{
+    text-align: center;
+}
+
+#imePrezime{
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 40px;
+    text-align: justify;
+    font-family: "Mukta", sans-serif;
+    padding-bottom: 27%;
+    margin: 10vw 10vw 0 10vw;
+    text-indent: 7vw;
+}
+
+.tekst{
+    font-size: 35px;
+    padding-bottom: 227px;
+    margin-top: 20px;
+}
+
+nav > ul li{
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+    font-family: "Mukta", sans-serif;   
+}
+
+#navigacija{
+    text-align: center;
+    background-color: #ff3333;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    color: black;
+}
+
+#oMeni{
+    position: relative;
+    background-color: #ff3333;
+    color: black;
+}
+
+#oMeni h1{
+    text-align: center;
+}
+
+#obrazovanje{
+    position: relative;
+    background-color: #B2BEB5;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 45%;
+}
+
+.obrazovanje{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 2vw 4vw 8vw 4vw;
+    line-height: 2;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.obrazovanje img{
+    margin-top: 5vw;
+}
+
+.obrazovanje h2{
+    font-size: 30px;
+}
+
+.obrazovanje h3{
+    font-size: 25px;
+}
+
+#znanjaIVjestine{
+    position: relative;
+    background-color: #ff3333;
+    overflow: hidden;
+}
+
+.znanjaIVjestine{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 2vw 4vw 8vw 4vw;
+    line-height: 2;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.znanjaIVjestine img{
+    background-color: white;
+}
